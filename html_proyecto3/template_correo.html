@@ -1,8 +1,40 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="UTF-8">
+    <style type="text/css">
+        @media screen and (max-width:480 px) {
+
+            .dos-columnas .columna,
+            .tres-columnas . columna {
+                max-width: 100% !important;
+
+            }
+
+            .dos-columnas img {
+                max-width: 100% !important;
+            }
+
+            .tres-columnas img {
+                max-width: 50% !importanr;
+            }
+        }
+
+        @media screen and (min-width:481 px) and (max-width: 640px) {
+            .tres-columnas . columna {
+                max-width: 33% !important;
+
+            }
+
+            .dos-columnas . columna {
+                max-width: 50% !important;
+
+            }
+        }
+    </style>
 </head>
+
 <body style="margin: 0 auto">
     <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#010F3A" style="width: 100%; max-width: 600px;">
 
@@ -18,110 +50,110 @@
         <!--Contenido-->
         <tr>
             <td>
-                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
-                   <!--Contenido Destacado-->
-                   <!--Saludo-->
-                    <tr>
-                        <td heigth=105px width="100%" style="font-family:sans-serif; font-style: oblique; color: #FFFFFF; text-align: center; font-size: 22px" width="100%" height="105px" > Hola *|FNAME|* tenemos cosas nuevas para ti</td>
-                    </tr>
-                    <!--Fin Saludo-->
-                    <!--Destacado-->
-                    <!--1 columna-->
-                     <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px">
-                        <tr style="padding-top: 0px;" bgcolor="#5069BA">
-                            <td>
-                               <a href="https://www.platzi.com/cursos/diseno-email" target="_blank" border="0" style="text-decoration: none">
-                                 <img style=" border: 0; width: 100%; height: auto; display: block" src="image/correo2_imagenContenido.png" alt="Nuevo curso de Diseño y maquetacion de E-mail">
-                                </a>
-                            </td>
-                        </tr>
-                        </table>
-                        <!--Fin 1 columna-->
-                        <!--2 columna-->
-                       <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px">
-                        <tr>
-                            <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 288px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_analitityc.png" alt="Google Analityc">
-                                 Curso de Google Analytics: aprende a como medir el desempeño de tu pagina web y tus E-mails
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo2_cta_buttom.png" alt="Google Analityc">
+                <!--Contenido Destacado-->
+                <!--Saludo-->
+        <tr>
+            <td heigth=105px width="100%" style="font-family:sans-serif; font-style: oblique; color: #FFFFFF; text-align: center; font-size: 22px" width="100%" height="105px"> Hola *|FNAME|* tenemos cosas nuevas para ti</td>
+        </tr>
+        <!--Fin Saludo-->
+        <!--Destacado-->
+        <!--1 columna-->
+        <tr>
+            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px">
+                <tr style="padding-top: 0px;" bgcolor="#5069BA">
+                    <td>
+                        <a href="https://www.platzi.com/cursos/diseno-email" target="_blank" border="0" style="text-decoration: none">
+                            <img style=" border: 0; width: 100%; height: auto; display: block" src="image/correo2_imagenContenido.png" alt="Nuevo curso de Diseño y maquetacion de E-mail">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </tr>
+        <!--Fin 1 columna-->
+        <!--2 columna-->
+        <table class="dos-columnas" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px">
+            <tr>
+                <td class="columna" style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 288px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_analitityc.png" alt="Google Analityc">
+                    Curso de Google Analytics: aprende a como medir el desempeño de tu pagina web y tus E-mails
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo2_cta_buttom.png" alt="Google Analityc">
 
-                             </td>
-                            <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 288px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_marketing.png" alt="Marketing">
-                                 Curso de Marketing: aprende a como medir hacer campañas efectivas
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo2_cta_buttom.png" alt="Google Analityc">
-                             </td>
-                         </tr>
-                    </table>
-                    <!-- fin 2 columna-->
-                    <!-- 3 columna-->
-                    <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px">
-                        <tr>
-                            <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 188px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_img_1.png" alt="Siete herramientas de emprendimiento">
-                                 Siete herramientas gratuitas para impulsar tu emprendimiento
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_bta_peque.png" alt="Google Analityc">
-                             </td>
-                            <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 188px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_img2.png" alt="clientes potenciales">
-                                 ¿Cómo llegar a más clientes potenciales a través del e-mail?
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_bta_peque.png" alt="Google Analityc">
-                             </td>
-                            <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 188px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_img3.png" alt="evitar errores de campañas de e-amil">
-                                 ¿Cómo evitar errores en tus campañas de E-mail marketing?
-                                 <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_bta_peque.png" alt="Google Analityc">
-                             </td>
-                         </tr>
-                    </table>
-                    <!--Fin 3 columna-->
-                    <!--Fin Destacado-->
-                    <!--cta Principal-->
+                </td>
+                <td class="columna" style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 288px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_marketing.png" alt="Marketing">
+                    Curso de Marketing: aprende a como medir hacer campañas efectivas
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo2_cta_buttom.png" alt="Google Analityc">
+                </td>
+            </tr>
+        </table>
+        <!-- fin 2 columna-->
+        <!-- 3 columna-->
+        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px">
+            <tr>
+                <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 188px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_img_1.png" alt="Siete herramientas de emprendimiento">
+                    Siete herramientas gratuitas para impulsar tu emprendimiento
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_bta_peque.png" alt="Google Analityc">
+                </td>
+                <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 188px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_img2.png" alt="clientes potenciales">
+                    ¿Cómo llegar a más clientes potenciales a través del e-mail?
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_bta_peque.png" alt="Google Analityc">
+                </td>
+                <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF;font-size: 12px; max-width: 188px; text-align: center; padding-top: 8px; padding-bottom: 8px; padding-left: 8px;">
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_img3.png" alt="evitar errores de campañas de e-amil">
+                    ¿Cómo evitar errores en tus campañas de E-mail marketing?
+                    <img style=" border: 0; width: 100%; height: auto; display: block; max-width: 288px" src="image/correo3_bta_peque.png" alt="Google Analityc">
+                </td>
+            </tr>
+        </table>
+        <!--Fin 3 columna-->
+        <!--Fin Destacado-->
+        <!--cta Principal-->
 
-                     <!--fin cta Principal-->
-                    <!--Fin Contenido Destacado-->
-                </table>
-            </td>
+        <!--fin cta Principal-->
+        <!--Fin Contenido Destacado-->
+        </td>
         </tr>
         <!--Fin Contenido-->
         <!--Footer-->
         <tr>
             <td>
-               <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px; width: 100%; max-width: 600px;" bgcolor="#847C7C">
-                       <tr>
-                         <td align="center" style="padding-top: 30px; padding-bottom: 30px">
-                           <table align="center">
-                           <tr>
-                                <td>
-                                   <a href="https://www.facebook.com/platzi" target="_blank" border="0" style="text-decoration: none">
-                                    <img src="image/facebbok.png" alt="Facebook">
-                                    </a>
-                                </td>
-                                <td>
-                                   <a href="https://web.whatsapp.com/" target="_blank" border="0" style="text-decoration: none">
-                                    <img src="image/whatsapp.png" alt="Whatsapp">
-                                    </a>
-                                </td>
-                                <td>
-                                   <a href="https://twitter.com/platzi" target="_blank" border="0" style="text-decoration: none">
-                                    <img src="image/twitter.png" alt="Twitter">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.instagram.com/platzi/" target="_blank" border="0" style="text-decoration: none">
-                                    <img src="image/instagram.png" alt="Intagram">
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
+                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding-top: 0px; padding-bottom: 0px; width: 100%; max-width: 600px;" bgcolor="#847C7C">
+                    <tr>
+                        <td align="center" style="padding-top: 30px; padding-bottom: 30px">
+                            <table align="center">
+                                <tr>
+                                    <td>
+                                        <a href="https://www.facebook.com/platzi" target="_blank" border="0" style="text-decoration: none">
+                                            <img src="image/facebbok.png" alt="Facebook">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://web.whatsapp.com/" target="_blank" border="0" style="text-decoration: none">
+                                            <img src="image/whatsapp.png" alt="Whatsapp">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://twitter.com/platzi" target="_blank" border="0" style="text-decoration: none">
+                                            <img src="image/twitter.png" alt="Twitter">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.instagram.com/platzi/" target="_blank" border="0" style="text-decoration: none">
+                                            <img src="image/instagram.png" alt="Intagram">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
                     <tr>
-                        <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF; text-align: center; font-size: 16px" width="100%">Enviado con 💚 por Platz</td>
+                        <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF; text-align: center; font-size: 12px" width="100%">Enviado con 💚 por Platz</td>
                     </tr>
-                                     <tr>
-                        <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF; text-align: center; font-size: 14px" width="100%">Te enviamos este correo por ser parte de la comunidad.
- Si no quieres recibir mas este contenido darte de <a href="" target="_blank">baja aquí.</a></td>
+                    <tr>
+                        <td style="font-family:sans-serif; font-style: oblique; color: #FFFFFF; text-align: center; font-size: 10px" width="100%">Te enviamos este correo por ser parte de la comunidad.
+                            Si no quieres recibir mas este contenido darte de <a href="" target="_blank">baja aquí.</a></td>
                     </tr>
                 </table>
             </td>
@@ -130,4 +162,5 @@
 
     </table>
 </body>
+
 </html>
